@@ -22,7 +22,8 @@
     </section>
 
     <section id="readerPanel" class="reader hidden" aria-live="polite">
-      <div class="reader-meta"><span id="progressText">第 1 句 / 共 1 句</span><div class="meta-actions"><button id="curtainBtn" class="text-btn" type="button">幕帘屏</button><button id="editBtn" class="text-btn" type="button">重新导入</button></div></div>
+      <div class="reader-meta"><span id="progressText">第 1 句 / 共 1 句</span><div class="meta-actions"><button id="fullscreenBtn" class="text-btn" type="button">全屏阅读</button><button id="curtainBtn" class="text-btn" type="button">幕帘屏</button><button id="editBtn" class="text-btn" type="button">重新导入</button></div></div>
+      <button id="exitFullscreenBtn" class="exit-fullscreen hidden" type="button">退出全屏</button>
       <article id="sentenceView" class="sentence-view" aria-label="文章内容"></article>
       <div class="swipe-tip">快速上划下一句　·　快速下划上一句　·　慢滑浏览</div>
       <div class="controls">
